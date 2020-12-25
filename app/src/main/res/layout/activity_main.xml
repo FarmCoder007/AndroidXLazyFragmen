@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/purple_200"
+        android:text="ViewPager下fragmentPagerAdapter  androidx懒加载" />
+
+    <TextView
+        android:id="@+id/btn_9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/purple_200"
+        android:text="ViewPager下FragmentPagerAdapter  下的旧的  懒加载" />
+    <TextView
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/purple_200"
+        android:text="ViewPager下FragmentStatePagerAdapter   androidx下的懒加载" />
+
+
+    <TextView
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/purple_200"
+        android:text="add hide  show  普通方式生命周期+ 旧懒加载方案" />
+
+    <TextView
+        android:id="@+id/btn_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/purple_200"
+        android:text="add hide show   androidx 懒加载" />
+    <TextView
+        android:id="@+id/btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/purple_200"
+        android:text="fragment嵌套fragment下的懒加载" />
+
+
+    <TextView
+        android:id="@+id/btn_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/purple_200"
+        android:text="复杂fragment嵌套的懒加载(一)" />
+
+
+    <TextView
+        android:id="@+id/btn_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/purple_200"
+        android:text="复杂fragment嵌套的懒加载(二)" />
+
+    <TextView
+        android:id="@+id/btn_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View_Pager2懒加载"
+        android:background="@color/purple_200"
+        android:padding="10dp"/>
+
+</LinearLayout>
