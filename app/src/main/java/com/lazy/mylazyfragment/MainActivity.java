@@ -13,11 +13,12 @@ import com.lazy.mylazyfragment.activity.Activity3Lazy;
 import com.lazy.mylazyfragment.activity.Activity4;
 import com.lazy.mylazyfragment.activity.Activity5;
 import com.lazy.mylazyfragment.activity.Activity6;
+import com.lazy.mylazyfragment.activity.Activity7;
 import com.lazy.mylazyfragment.activity.ActivityVpOldLazy;
 
 
 /**
- *  参考资料 ：https://www.jianshu.com/p/2201a107d5b5?utm_campaign=hugo
+ * 参考资料 ：https://www.jianshu.com/p/2201a107d5b5?utm_campaign=hugo
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -62,6 +63,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(this, Activity6.class));
                 break;
             case R.id.btn_7:
+                // viewpager2
+                startActivity(new Intent(this, Activity7.class));
                 break;
             case R.id.btn_8:
                 startActivity(new Intent(this, Activity3Lazy.class));
